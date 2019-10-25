@@ -6,8 +6,46 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+header {
+  padding: 14px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+h1, h2 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+h2 {
+  font-size: 20px;
+}
+.content {
+  padding: 20px;
+}
+.form > div {
+  margin: 6px 0;
+}
+label {
+  display: inline-block;
+  min-width: 80px;
+  text-align: right;
+  margin-right: 4px;
+}
+input {
+  width: 150px;
+  height: 24px;
+  padding: 3px 8px;
+  font-size: 14px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: none;
+}
+.currency {
+  color: #0288D1;
+}
+.currency::before {
+  content: " $";
+}
+
